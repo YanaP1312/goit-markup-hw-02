@@ -1,7 +1,7 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Roboto Regular", "Roboto Bold", "Roboto Medium", sans-serif;
     color: #2e2f42;
-    background-color: #fafafa;
+    background-color: #FCFCFC;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -12,7 +12,6 @@ a {
 }
 
 p {
-    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -53,7 +52,6 @@ ul{
     background: #404bbf;
 }
 .nav-adress a{
-    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -75,6 +73,7 @@ ul{
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    cursor: pointer;
 }
 button:hover{
     font-weight: 600;
