@@ -53,12 +53,13 @@ ul{
     font-style: normal;
 }
 
-.adress .adress-item{
+.adress .adress-link{
     letter-spacing: 0.02em;
+    color: #434455
 }
 
-.adress .adress-item:hover,
-.adress .adress-item:focus{
+.adress .adress-link:hover,
+.adress .adress-link:focus{
     color: #404bbf;
 }
 
