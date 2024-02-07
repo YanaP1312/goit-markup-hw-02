@@ -1,19 +1,19 @@
 body{
-    font-family: "Roboto", "Roboto Regular", "Roboto Bold", "Roboto Medium", sans-serif;
-    color: #2e2f42;
-    background-color: #FCFCFC;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
 }
 
-a {
+a{
     text-decoration: none;
     color: inherit;
+    color: #2e2f42;
 }
 
-p {
+.text{
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 ul{
@@ -24,7 +24,7 @@ ul{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -41,55 +41,65 @@ ul{
 .page-nav .link{
     font-weight: 500;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.page-nav a:hover{
+.page-nav .link:hover,
+.page-nav .link:focus{
     color: #404bbf;
 }
 
-.page-nav .link-studio:active{
-    color: #404bbf;
-    background: #404bbf;
+.adress{
+    font-style: normal;
 }
-.nav-adress a{
+
+.adress .adress-item{
     letter-spacing: 0.02em;
-    color: #434455;
 }
-.nav-adress a:hover{
+
+.adress .adress-item:hover,
+.adress .adress-item:focus{
     color: #404bbf;
 }
 
-.page-title {
+.section-main {
+    background-color: #2e2f42;
+}
+
+.page-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.section-main button{
+
+.section-main .button{
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
 }
-button:hover{
+
+.button:hover,
+.button:focus{
     font-weight: 600;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #4d5ae5;
+    background: #404bbf;
 }
 
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .title{
@@ -97,12 +107,22 @@ button:hover{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .section-studio{
+    background-color: #F4F4FD;
     text-align: center;
 }
 
-footer p{
+.section-studio .team-member{
+    background-color: #FFFFFF
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.footer .text{
     color: #f4f4fd;
 }
